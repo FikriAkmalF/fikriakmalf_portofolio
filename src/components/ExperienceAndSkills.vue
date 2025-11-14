@@ -76,22 +76,12 @@ const Skills =ref([
     },
     {
         id:6,
-        name:'Google Fonts',
+        name:'Bekerja sama',
         // width:'91%'
     },
     {
-        id:7,
-        name:'MySQL',
-        // width:'91%'
-    },
-    {
-        id:8,
-        name:'Problem Solving',
-        // width:'91%'
-    },
-    {
-        id:9,
-        name:'Canva',
+        id:5,
+        name:'Komunikasi',
         // width:'91%'
     },
 ]);
@@ -102,14 +92,14 @@ const Experinces =ref([
         role:'Full Stack Developer',
         company:'Assyifa Islamic Philanthropy',
         information:'Membuat Sistem Manajemen untuk mengatur seputar Zakat, Ziswaf dan Wakaf menggunakan Laravel',
-        date:'Februari - April 2023'
+        date:'Desember 2022 - Januari 2023'
     },
     {
         id:2,
         role:'Full Stack Developer',
         company:'Dinas Komunikasi dan Informatika',
         information:'Project saat magang membuat Sistem Informasi Manajemen Rumah Sakit (SIMRS) RS Harmoni Kehidupan dengan menggunakan Laravel + Vue JS + Bootstrap + Midtrans',
-        date:'Mei - September 2024'
+        date:'Juli - September 2024'
     },
     {
         id:3,

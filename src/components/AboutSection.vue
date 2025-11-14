@@ -65,7 +65,7 @@ const education=ref([
         // year:'2022'
     // },
     {
-        id:2,
+        id:1,
         School:'Universitas Mandiri',
         program:'Sistem Informasi',
         // year:'2020'

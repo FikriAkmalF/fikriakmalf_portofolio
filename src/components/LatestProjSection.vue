@@ -66,7 +66,7 @@
             id: 1,
             category: 'Full Stack Developer',
             image: '/project_1.png',
-            title: 'Paguyuban As Syifa',
+            title: 'Assyifa Islamic Boarding School',
             description: 'Sebagai Full Stack Developer di salah satu pesantren modern yang ada di Tambakmekar, Kec. Jalancagak, Kab. Subang, Prov. Jawa Barat. Diamanahkan untuk mengelola / membuat salah satu website nya yang bernama Paguyuban untuk mengelola sistem keuangan dan data jumlah donatur di bagian Assyifa Islamic Philanthropy (AIP)',
             technologies: ['Laravel'],
             gitURL: '',

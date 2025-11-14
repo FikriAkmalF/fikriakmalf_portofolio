@@ -14,10 +14,10 @@
                             </span><!-- 😁 -->
                         </h1>
                     </div>
-                    <p class="text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-xl">
-                        Saya adalah seorang Full Stack Developer dengan pengalaman dalam pengembangan web. 
-                        Terbiasa dengan framework JavaScript yaitu Vue JS atau React JS dan framework PHP yaitu Laravel.
-                        Bisa juga digabungkan sesuai dengan kebutuhan. 
+                    <p class="text-gray-300 pt-8 text-justify mx-auto max-w-xl">
+                        Saya adalah seorang Developer berpengalaman dalam pengembangan web sebagai Full Stack Developer.
+                        Saya menguasai framework Frontend seperti Vue JS atau React JS, dan mahir dalam framework Backend menggunakan Laravel.
+                        Saya mampu bekerja di seluruh stack pengembangan sesuai kebutuhan. 
                     </p>
                     <div class="flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0">
                         <button class="px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center">
@@ -40,7 +40,7 @@
                                 </svg>
                                 <div class="download-loader text-white hidden"></div>
                             </div>
-                            <a href="https://drive.google.com/file/d/1xy3C7s-eNk1M1bV8ubQgvre7SQRsm-aS/view?usp=drive_link" target="_blank" class="pl-2 text-primary">Lihat Resume</a>
+                            <a href="https://drive.google.com/file/d/1tGVinBl7aat02OXRBsp6YXvXuxCpDcJa/view?usp=drive_link" target="_blank" class="pl-2 text-primary">Lihat Resume</a>
                             <!-- <a href="/resume.pdf" download="resume.pdf" class="pl-2 text-primary"> Download resume</a> -->
                             </div>
                         </button>

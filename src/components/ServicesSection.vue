@@ -35,51 +35,45 @@ const services =ref([
     },
     {
         id:2,
-        icon:'https://img.icons8.com/external-vectorslab-glyph-vectorslab/100/fffeee/external-Technical-Writing-mobile-app-development-vectorslab-glyph-vectorslab.png',
-        name:'Problem Solving',
-        description:'Proses berpikir dan mencari solusi untuk mengatasi suatu masalah dengan cara yang efektif dan efisien.'
-    },
-    {
-        id:3,
-        icon:'https://img.icons8.com/?size=100&id=1476&format=png&color=FFFFFF',
-        name:'HeidiSQL',
-        description:'Sistem manajemen basis data relasional (RDBMS) yang bersifat open-source dan menggunakan SQL (Structured Query Language) untuk mengelola data.'
-    },
-    {
-        id:4,
         icon:'https://img.icons8.com/?size=100&id=rY6agKizO9eb&format=png&color=000000',
         name:'Vue JS',
         description:'Framework JavaScript progresif yang digunakan untuk membangun antarmuka pengguna (UI) dan aplikasi web interaktif.'
     },
     {
-        id:5,
-        icon:'https://img.icons8.com/?size=100&id=58811&format=png&color=FFFFFF',
+        id:3,
+        icon:'https://img.icons8.com/?size=100&id=NfbyHexzVEDk&format=png&color=000000',
         name:'React JS',
         description:'Framework JavaScript yang digunakan untuk membangun antarmuka pengguna (UI) yang interaktif dan efisien, terutama dalam aplikasi berbasis Single Page Application (SPA). Sebenarnya sama saja seperti Vue JS'
     },
     {
-        id:6,
+        id:4,
         icon:'https://img.icons8.com/?size=100&id=hUvxmdu7Rloj&format=png&color=000000',
         name:'Laravel',
         description:'Framework PHP yang digunakan untuk membangun aplikasi web dengan struktur yang rapi, aman, dan efisien. Bisa digabungkan dengan Vue JS / React JS jika digabung maka Laravel digunakan sebagai Backend'
     },
     {
-        id:7,
+        id:5,
         icon:'https://img.icons8.com/?size=100&id=4PiNHtUJVbLs&format=png&color=000000',
         name:'Tailwind CSS',
         description:'Framework CSS berbasis utility-first yang memungkinkan pengembang membangun desain antarmuka dengan cepat dan fleksibel. Biasa nya saat project digunakan untuk CSS di Vue JS / React JS'
     },
     {
-        id:8,
+        id:6,
         icon:'https://img.icons8.com/?size=100&id=PndQWK6M1Hjo&format=png&color=000000',
         name:'Bootstrap',
         description:'Framework CSS yang digunakan untuk membangun antarmuka web yang responsif dan cepat dengan komponen siap pakai. Biasa nya saat project digunakan untuk Laravel'
     },
     {
-        id:9,
-        icon:'https://img.icons8.com/?size=100&id=uY6QHPV8g5bd&format=png&color=000000',
-        name:'Google Fonts',
-        description:'Layanan gratis dari Google yang menyediakan berbagai jenis font web yang dapat digunakan dalam desain dan pengembangan website.'
+        id:7,
+        icon:'https://img.icons8.com/?size=100&id=1609&format=png&color=ffffff',
+        name:'Bekerja sama',
+        description:'Bekerja sama adalah suatu kegiatan atau proses di mana dua orang atau lebih (individu, tim, atau organisasi) berinteraksi dan berkolaborasi untuk mencapai satu tujuan bersama yang telah ditetapkan.'
+    },
+    {
+        id:8,
+        icon:'https://img.icons8.com/?size=100&id=54385&format=png&color=ffffff',
+        name:'Komunikasi',
+        description:'Komunikasi adalah aksi pertukaran informasi atau interaksi dua arah yang melibatkan pengiriman pesan (berbicara, menulis, atau gestur) dan penerimaan pesan (mendengarkan atau membaca) antara satu individu dengan individu atau kelompok lain. Intinya adalah interaksi yang efektif yang bertujuan untuk menciptakan pemahaman yang sama (mutual understanding) mengenai suatu topik, ide, atau arahan, baik secara internal dalam tim maupun secara eksternal dengan klien atau pengguna.'
     },
     ])
 </script>
