@@ -82,7 +82,7 @@ const Experinces = ref([
     role: "Full Stack Developer",
     company: "Klien",
     information:
-      "Project membuat website untuk mengatur siswa Sekolah Dasar (SD) berbasis Chatbot untuk menampilkan data per siswa menggunakan Laravel + Bootstrap + API Gemini (Menggunakan metode C4.5).",
+      "Project membuat website untuk mengatur siswa Sekolah Dasar (SD) berbasis Chatbot untuk menampilkan data persiswa menggunakan Laravel + Bootstrap + API Gemini (Menggunakan metode C4.5).",
     date: "Tahun 2025",
   },
   {
@@ -90,8 +90,8 @@ const Experinces = ref([
     role: "Full Stack Developer",
     company: "Klien",
     information:
-      "Project membuat website untuk mengetahui tingkat kepuasan kepuasan pelanggan di toko Barnik Akbar berbasis Chatbot",
-    date: "Maret 2023",
+      "Project membuat website untuk mengetahui tingkat kepuasan kepuasan pelanggan di toko Barnik Akbar berbasis Chatbot.",
+    date: "Tahun 2025",
   },
 ]);
 </script>

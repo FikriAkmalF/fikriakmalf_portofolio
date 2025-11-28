@@ -48,14 +48,10 @@
         </div>
       </div>
 
-      <div
-        v-if="filteredServices.length === 0"
-        class="lg:col-span-3 text-center py-10"
-      >
+      <div v-if="filteredServices.length === 0" class="lg:col-span-3 text-center py-10">
         <p class="text-gray-400">
-          Tidak ada keterampilan yang tersedia dalam kategori **{{
-            activeCategory
-          }}** saat ini.
+          Tidak ada keterampilan yang tersedia dalam kategori **{{ activeCategory }}**
+          saat ini.
         </p>
       </div>
     </div>
@@ -117,18 +113,9 @@ const services = ref([
   },
   {
     id: 5,
-    icon: "https://img.icons8.com/?size=100&id=20909&format=png&color=000000",
-    name: "HTML5",
-    description:
-      "HTML5 adalah versi terbaru dari bahasa markup web (HyperText Markup Language) yang menjadi standar untuk membangun halaman web dan aplikasi modern.",
-    category: "Frontend",
-  },
-  {
-    id: 6,
-    icon: "https://img.icons8.com/?size=160&id=21278&format=png&color=000000",
-    name: "CSS",
-    description:
-      "CSS (Cascading Style Sheets) adalah bahasa yang digunakan untuk menentukan tampilan dan style (seperti warna, font, dan tata letak) dari konten yang dibuat oleh HTML, berfungsi untuk memisahkan desain dari struktur dokumen web.",
+    icon: "https://img.icons8.com/?size=100&id=gFw7X5Tbl3ss&format=png&color=000000",
+    name: "Material-UI",
+    description: "",
     category: "Frontend",
   },
   {
@@ -151,32 +138,28 @@ const services = ref([
     id: 3,
     icon: "https://img.icons8.com/?size=100&id=54087&format=png&color=000000",
     name: "Node JS",
-    description:
-      "",
+    description: "",
     category: "Backend",
   },
   {
     id: 4,
     icon: "https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg",
     name: "PHP",
-    description:
-      "",
+    description: "",
     category: "Backend",
   },
   {
     id: 1,
     icon: "https://img.icons8.com/?size=100&id=LdUzF8b5sz2R&format=png&color=000000",
     name: "Docker",
-    description:
-      "",
+    description: "",
     category: "DevOps",
   },
   {
     id: 1,
     icon: "https://img.icons8.com/?size=100&id=QeIg9siFKGgp&format=png&color=000000",
     name: "MySQL",
-    description:
-      "",
+    description: "",
     category: "Databases",
   },
   // {
@@ -191,16 +174,14 @@ const services = ref([
     id: 1,
     icon: "https://img.icons8.com/?size=100&id=20906&format=png&color=000000",
     name: "Git",
-    description:
-      "",
+    description: "",
     category: "Tools",
   },
   {
     id: 2,
     icon: "https://img.icons8.com/?size=100&id=3tC9EQumUAuq&format=png&color=ffffff",
     name: "GitHub",
-    description:
-      "",
+    description: "",
     category: "Tools",
   },
   {
@@ -226,8 +207,6 @@ const filteredServices = computed(() => {
   if (activeCategory.value === "All") {
     return services.value;
   }
-  return services.value.filter(
-    (service) => service.category === activeCategory.value
-  );
+  return services.value.filter((service) => service.category === activeCategory.value);
 });
 </script>
